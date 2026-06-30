@@ -1,1 +1,1 @@
-haziq imut
+hazig imut
