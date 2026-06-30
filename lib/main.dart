@@ -5,17 +5,21 @@ import 'screens/home_screen.dart';
 
 const fieldCheckRed = Color(0xFFE6332A);
 
-void main() {
-  runApp(const FieldCheckApp());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final store = CheckInStore();
+  await store.load(); // restore saved history before first frame
+  runApp(FieldCheckApp(store: store));
 }
 
 class FieldCheckApp extends StatelessWidget {
-  const FieldCheckApp({super.key});
+  final CheckInStore store;
+  const FieldCheckApp({super.key, required this.store});
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create: (_) => CheckInStore(),
+    return ChangeNotifierProvider<CheckInStore>.value(
+      value: store,
       child: MaterialApp(
         title: 'FieldCheck',
         debugShowCheckedModeBanner: false,

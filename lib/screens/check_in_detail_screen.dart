@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import '../models/check_in.dart';
+import 'home_screen.dart';
 
 class CheckInDetailScreen extends StatelessWidget {
   final CheckIn checkIn;
