@@ -92,13 +92,6 @@ Choose one of the following:
 flutter run
 ```
 
-If you have more than one connected device or emulator, select one explicitly:
-
-```bash
-flutter devices
-flutter run -d <device-id>
-```
-
 ### 5. Important Notes for This App
 This project uses:
 
