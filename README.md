@@ -8,7 +8,6 @@ FieldCheck is a modern Flutter mobile app for capturing field inspection check-i
 - Open a detailed view for each saved check-in
 - Handle camera and location permissions gracefully
 - Store all data locally using Hive
-- Bonus: read-only map preview for the captured location
 
 ## Architecture
 - Provider for state management
@@ -23,6 +22,7 @@ FieldCheck is a modern Flutter mobile app for capturing field inspection check-i
 - lib/services
 - lib/storage
 - lib/theme
+- lib/utils
 - lib/widgets
 
 ## Plugins Used
@@ -33,8 +33,7 @@ FieldCheck is a modern Flutter mobile app for capturing field inspection check-i
 - hive_flutter
 - path_provider
 - provider
-- flutter_map
-- latlong2
+- url_launcher
 
 ## How to Run
 1. Install Flutter SDK
@@ -44,7 +43,7 @@ FieldCheck is a modern Flutter mobile app for capturing field inspection check-i
 ## Screenshots Placeholders
 - Home screen: history of saved check-ins
 - New check-in: camera, photo preview, GPS, note
-- Detail screen: full record information and map preview
+- Detail screen: full record information
 
 ## Requirements Checklist
 - [x] Home / History screen
@@ -54,8 +53,6 @@ FieldCheck is a modern Flutter mobile app for capturing field inspection check-i
 - [x] Camera and location permissions handling
 - [x] Provider state management
 - [x] Material 3 UI
-- [x] Bonus map preview
 
 ## Bonus Features
-- Read-only location map preview
 - Modern empty state and polished cards
