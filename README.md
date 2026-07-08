@@ -54,6 +54,10 @@ https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/details%
 - Video Demo : full tutorial
 https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/DEMO.mp4
 
+## Install APK
+- FieldCheck.apk
+
+
 ## Requirements Checklist
 - [x] Home / History screen
 - [x] New check-in form
