@@ -108,22 +108,13 @@ This project uses:
 
 When you run the app, allow the required permissions on your device or emulator. If permissions are denied, the app may not work correctly.
 
-### 6. Build for Release
-To create an Android APK:
-
-```bash
-flutter build apk
-```
-
-The APK will be generated in the `build/app/outputs/flutter-apk/` folder.
-
-### 7. Common Troubleshooting
+### 6. Common Troubleshooting
 - If Flutter says the SDK is not found, restart your terminal or reload your shell configuration.
 - If Android build fails, run `flutter doctor --android-licenses` and accept the licenses.
 - If package download errors happen, check your internet connection and try again.
 - If the app does not launch, make sure a device or emulator is running.
 
-### 8. Recommended Environment
+### 7. Recommended Environment
 For best compatibility, use a recent stable Flutter version that supports Dart 3.12.2 or newer.
 
 ## Screenshots Placeholders
