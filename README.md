@@ -120,7 +120,7 @@ https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/check%20
 - Detail screen: full record information
 https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/details%20preview.jpeg
 
-## video Placeholders
+## Video Placeholders
 - Video Demo : full tutorial
 https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/DEMO.mp4
 
