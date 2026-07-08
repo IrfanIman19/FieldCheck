@@ -56,7 +56,7 @@ https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/DEMO.mp4
 
 ## Install APK
 - FieldCheck.apk
-
+https://github.com/IrfanIman19/FieldCheck/blob/master/APK/FieldCheck.apk
 
 ## Requirements Checklist
 - [x] Home / History screen
@@ -66,6 +66,3 @@ https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/DEMO.mp4
 - [x] Camera and location permissions handling
 - [x] Provider state management
 - [x] Material 3 UI
-
-## Bonus Features
-- Modern empty state and polished cards
