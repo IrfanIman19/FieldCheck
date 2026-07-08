@@ -35,10 +35,96 @@ FieldCheck is a modern Flutter mobile app for capturing field inspection check-i
 - provider
 - url_launcher
 
-## How to Run
-1. Install Flutter SDK
-2. Run `flutter pub get`
-3. Run `flutter run`
+## How to Clone and Run This Project from GitHub
+
+Follow these steps carefully to avoid setup issues.
+
+### 1. Prerequisites
+Before running the app, make sure you have the following installed:
+
+- Git
+- Flutter SDK compatible with Dart 3.12.2 or newer
+- Android Studio (for Android emulator/device builds)
+- Xcode (for iOS builds on macOS only)
+- VS Code with the Flutter and Dart extensions (recommended)
+
+You can verify your setup with:
+
+```bash
+git --version
+flutter --version
+flutter doctor
+```
+
+If `flutter doctor` shows problems, fix them before continuing. Common issues include:
+
+- Flutter not added to your system PATH
+- Android SDK not installed or not accepted
+- Android licenses not accepted
+- Xcode command line tools missing on macOS
+
+### 2. Clone the Repository
+Open a terminal and run:
+
+```bash
+git clone https://github.com/IrfanIman19/FieldCheck.git
+cd FieldCheck
+```
+
+### 3. Install Project Dependencies
+Run this inside the project folder:
+
+```bash
+flutter pub get
+```
+
+If you see dependency or package resolution errors, try:
+
+```bash
+flutter clean
+flutter pub get
+```
+
+### 4. Run the App
+Choose one of the following:
+
+```bash
+flutter run
+```
+
+If you have more than one connected device or emulator, select one explicitly:
+
+```bash
+flutter devices
+flutter run -d <device-id>
+```
+
+### 5. Important Notes for This App
+This project uses:
+
+- camera access
+- GPS/location access
+- local storage with Hive
+
+When you run the app, allow the required permissions on your device or emulator. If permissions are denied, the app may not work correctly.
+
+### 6. Build for Release
+To create an Android APK:
+
+```bash
+flutter build apk
+```
+
+The APK will be generated in the `build/app/outputs/flutter-apk/` folder.
+
+### 7. Common Troubleshooting
+- If Flutter says the SDK is not found, restart your terminal or reload your shell configuration.
+- If Android build fails, run `flutter doctor --android-licenses` and accept the licenses.
+- If package download errors happen, check your internet connection and try again.
+- If the app does not launch, make sure a device or emulator is running.
+
+### 8. Recommended Environment
+For best compatibility, use a recent stable Flutter version that supports Dart 3.12.2 or newer.
 
 ## Screenshots Placeholders
 - Home screen: history of saved check-ins
