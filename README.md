@@ -42,8 +42,17 @@ FieldCheck is a modern Flutter mobile app for capturing field inspection check-i
 
 ## Screenshots Placeholders
 - Home screen: history of saved check-ins
-- New check-in: camera, photo preview, GPS, note
+https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/homescreen.jpeg
+
+- check-in: camera, photo preview, GPS, note
+https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/check%20in.jpeg
+
 - Detail screen: full record information
+https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/details%20preview.jpeg
+
+## video Placeholders
+- Video Demo : full tutorial
+https://github.com/IrfanIman19/FieldCheck/blob/master/SCREENSHOT%26DEMO/DEMO.mp4
 
 ## Requirements Checklist
 - [x] Home / History screen
